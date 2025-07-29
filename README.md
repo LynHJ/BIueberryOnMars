@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/pandas-1.3.5-informational?style=plastic&logo=appveyor)
 
 
-![alt text](https://github.com/LynHJ/BIueberryOnMars/Resources/pherules.jpg)
+![alt text](https://github.com/LynHJ/BIueberryOnMars/Resources/spherules.jpg)
 
 ## Background
 
@@ -20,14 +20,14 @@ Ideally, this project will have two phases. The first phase is to organise photo
 
 
 <u>PHASE 1</u>:
-From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx)
-Set Data range:
-Result view : Observation groups
-Sol: 1~3648
-Instrument: Mastcam
+From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx)\n
+Set Data range:\n
+Result view : Observation groups\n
+Sol: 1~3648\n
+Instrument: Mastcam\n
 Eye: Right
-Filter: 0 
-Type:C(Losslessly Compressed 8 Bit Image)
+Filter: 0\n
+Type:C(Losslessly Compressed 8 Bit Image)\n
 
 <u>PHASE 2</u>:
 TBC
@@ -44,8 +44,6 @@ This assignment has been a great venture for me to dive in to planetray science 
 Project  
 ├── README.md
 └── Resources
-    ├── 001.jpg
-    ├── 002.jpg
     └── pherules.jpg 
 
 local 
