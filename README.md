@@ -1,15 +1,15 @@
-# BIueberryOnMars
+# BlueberryOnMars
 
 
 ![](https://img.shields.io/badge/numpy-1.21.5-informational?style=plastic&logo=appveyor)
 ![](https://img.shields.io/badge/pandas-1.3.5-informational?style=plastic&logo=appveyor)
 
 
-![alt text](https://github.com/LynHJ/BIueberryOnMars/Resources/spherules.jpg)
+![alt text](https://github.com/LynHJ/BlueberryOnMars/Resources/spherules.jpg)
 
 ## Background
 
-**BIueberryOnMars** project led by Dr. Jones aims to target spherules on Mars. During the Curiosity Rover's more than 4,000 mission days on Mars, it has continuously supported us in studying the paleoenvironment on Mars. We will focus on Hematite spherules(blueberries), as they are iron oxides and normally precipitate from aqueous fluids, like water. It could be indirect evidence to indicate that the locations where we found hematite spherules might have been habitable in the past.
+**BlueberryOnMars** project led by Dr. Jones aims to target spherules on Mars. During the Curiosity Rover's more than 4,000 mission days on Mars, it has continuously supported us in studying the paleoenvironment on Mars. We will focus on Hematite spherules(blueberries), as they are iron oxides and normally precipitate from aqueous fluids, like water. It could be indirect evidence to indicate that the locations where we found hematite spherules might have been habitable in the past.
 
 Curiosity Rover has many types of cameras that serve different research purposes. Higher resolution photos taken from Mastcam-100 (Right Eye) were chosen to identify hematite spherules in the photos.
 
@@ -20,14 +20,14 @@ Ideally, this project will have two phases. The first phase is to organise photo
 
 
 <u>PHASE 1</u>:
-From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx)\n
-Set Data range:\n
-Result view : Observation groups\n
-Sol: 1~3648\n
-Instrument: Mastcam\n
-Eye: Right
+From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx)<br />
+Set Data range:<br />
+Result view : Observation groups<br />
+Sol: 1~3648<br />
+Instrument: Mastcam<br />
+Eye: Right<br />
 Filter: 0\n
-Type:C(Losslessly Compressed 8 Bit Image)\n
+Type:C(Losslessly Compressed 8 Bit Image)<br />
 
 <u>PHASE 2</u>:
 TBC
