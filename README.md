@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/pandas-1.3.5-informational?style=plastic&logo=appveyor)
 
 
-![alt text](https://github.com/LynHJ/BIueberryOnMars/blob/8f558f822757d11d4c9d9d44751c0e23aecc5514/Resources/spherules.jpg)
+![alt text](https://github.com/LynHJ/BIueberryOnMars/blob/8f558f822757d11d4c9d9d44751c0e23aecc5514/Resources/spherules.jpg){width=300 height=150}
 
 ## Background
 
@@ -21,12 +21,12 @@ Ideally, this project will have two phases. The first phase is to organise photo
 
 *PHASE 1:*<br />
 prepareing:
-    From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx) set Data range<br />
-    Result view : Observation groups<br />
-    Instrument: Mastcam<br />
-    Eye: Right<br />
-    Filter: 0<br />
-    Type:C(Losslessly Compressed 8 Bit Image)<br />
+&nbspFrom [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx) set data range<br />
+&nbspResult view : Observation groups<br />
+&nbspInstrument: Mastcam<br />
+&nbspEye: Right<br />
+&nbspFilter: 0<br />
+&nbspType:C(Losslessly Compressed 8 Bit Image)<br />
 
 *PHASE 2:* <br />
 TBC
