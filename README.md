@@ -21,15 +21,15 @@ Ideally, this project will have two phases. The first phase is to organise photo
 
 *PHASE 1:*<br />
 prepareing:
-&nbspFrom [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx) set data range<br />
-&nbspResult view : Observation groups<br />
-&nbspInstrument: Mastcam<br />
-&nbspEye: Right<br />
-&nbspFilter: 0<br />
-&nbspType:C(Losslessly Compressed 8 Bit Image)<br />
+&emsp;  From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx) set data range<br />
+&emsp;  Result view : Observation groups<br />
+&emsp;  Instrument: Mastcam<br />
+&emsp;  Eye: Right<br />
+&emsp;  Filter: 0<br />
+&emsp;  Type:C(Losslessly Compressed 8 Bit Image)<br />
 
 *PHASE 2:* <br />
-TBC
+&emsp;  TBC
 
    
 ## Summary:
