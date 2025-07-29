@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/pandas-1.3.5-informational?style=plastic&logo=appveyor)
 
 
-<img src="https://github.com/LynHJ/BIueberryOnMars/blob/8f558f822757d11d4c9d9d44751c0e23aecc5514/Resources/spherules.jpg"  width="200" height="400" />
+<img src="https://github.com/LynHJ/BIueberryOnMars/blob/8f558f822757d11d4c9d9d44751c0e23aecc5514/Resources/spherules.jpg"  width="1200" height="400" />
 
 ## Background
 
