@@ -20,7 +20,7 @@ Ideally, this project will have two phases. The first phase is to organise photo
 
 
 *PHASE 1:*<br />
-prepareing:
+prepareing:<br />
 &emsp;  From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx) set data range<br />
 &emsp;  Result view : Observation groups<br />
 &emsp;  Instrument: Mastcam<br />
