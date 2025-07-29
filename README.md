@@ -19,21 +19,21 @@ Curiosity Rover has many types of cameras that serve different research purposes
 Ideally, this project will have two phases. The first phase is to organise photos taken by Curiosity Rover's  Mastcam-100 (Right Eye). The second phase is to use supervised machine learning to automate our task after the catalogue contains sufficient data. 
 
 
-<u>PHASE 1</u>:
+*PHASE 1:*<br />
 From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx)<br />
-Set Data range:<br />
+<ins>Set Data range</ins>
 Result view : Observation groups<br />
 Sol: 1~3648<br />
 Instrument: Mastcam<br />
 Eye: Right<br />
-Filter: 0\n
+Filter: 0<br />
 Type:C(Losslessly Compressed 8 Bit Image)<br />
 
-<u>PHASE 2</u>:
+<u>PHASE 2</u>:<br />
 TBC
 
    
-### Summary:
+## Summary:
 
 This assignment has been a great venture for me to dive in to planetray science and apply knowledge I learnt on this project, as it has allowed me to refresh data analytic skills I have learnt two years ago and combine my newly gained geoscience. This project also allow me to build a connection between theories and practices.
 
