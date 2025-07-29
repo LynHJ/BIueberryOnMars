@@ -5,7 +5,7 @@
 ![](https://img.shields.io/badge/pandas-1.3.5-informational?style=plastic&logo=appveyor)
 
 
-![alt text](https://github.com/LynHJ/BlueberryOnMars/Resources/spherules.jpg)
+![alt text](https://github.com/LynHJ/BIueberryOnMars/blob/8f558f822757d11d4c9d9d44751c0e23aecc5514/Resources/spherules.jpg)
 
 ## Background
 
@@ -20,23 +20,21 @@ Ideally, this project will have two phases. The first phase is to organise photo
 
 
 *PHASE 1:*<br />
-From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx)<br />
-<ins>Set Data range</ins>
-Result view : Observation groups<br />
-Sol: 1~3648<br />
-Instrument: Mastcam<br />
-Eye: Right<br />
-Filter: 0<br />
-Type:C(Losslessly Compressed 8 Bit Image)<br />
+prepareing:
+    From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx) set Data range<br />
+    Result view : Observation groups<br />
+    Instrument: Mastcam<br />
+    Eye: Right<br />
+    Filter: 0<br />
+    Type:C(Losslessly Compressed 8 Bit Image)<br />
 
-<u>PHASE 2</u>:<br />
+*PHASE 2:* <br />
 TBC
 
    
 ## Summary:
 
-This assignment has been a great venture for me to dive in to planetray science and apply knowledge I learnt on this project, as it has allowed me to refresh data analytic skills I have learnt two years ago and combine my newly gained geoscience. This project also allow me to build a connection between theories and practices.
-
+This internship project has been a great venture for me to dive in to the planetray science and apply knowledge I learnt, as it has allowed me to refresh data analytic skills I have learnt two years ago and combine my newly gained geoscience knowledge.
 
 
 ## Content:
