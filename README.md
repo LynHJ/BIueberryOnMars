@@ -9,9 +9,12 @@
 
 ## Background
 
-**BlueberryOnMars** project led by Dr. Jones aims to target spherules on Mars. During the Curiosity Rover's more than 4,000 mission days on Mars, it has continuously supported us in studying the paleoenvironment on Mars. We will focus on Hematite spherules(blueberries), as they are iron oxides and normally precipitate from aqueous fluids, like water. It could be indirect evidence to indicate that the locations where we found hematite spherules might have been habitable in the past.
+**BlueberryOnMars** project led by Dr. Jones aims to target spherules on Mars. During the Curiosity Rover's more than 4,000 mission days on Mars, it has continuously supported us in studying the paleoenvironment on Mars. We will focus on Hematite spherules(blueberries), as they are iron oxides and normally precipitate from aqueous fluids, like water. It could be indirect evidence to indicate that the locations where we found hematite spherules might have been habitable in the past. Curiosity Rover has many types of cameras that serve different research purposes. Higher resolution photos taken from Mastcam-100 (Right Eye) were chosen to identify hematite spherules in the photos. 
 
-Curiosity Rover has many types of cameras that serve different research purposes. Higher resolution photos taken from Mastcam-100 (Right Eye) were chosen to identify hematite spherules in the photos. Due to local storage limitation and compliacted download process (only can put 500 photos/each time in the car), I have set some filtration to give this project a quick start.
+## Log:
+29/07/25 I found that the website only allows me add 500 photos at a time to the cart for the downloading. If the number of photos taken in a day excess 500, I will not be able to download all of them. Therefore I applied more filter options(Set Filter to only *0* for colour photos; Set photo types to only *Losslessly Compressed 8 Bit Image*) to ensure that the number of daily photo is fewer than 500. <br />
+01/08/25 Had download all the photos. <br />
+06/08/25 Tried few ways (cv2, pillow, numpy) to convert .img file format into .png. It was failed. I changed the photo types to E(JPEG 422 Image) to ensure that I can process images easily. <br />
 
 
 ## About:  
@@ -26,7 +29,7 @@ prepareing:<br />
 &emsp;  Instrument: Mastcam<br />
 &emsp;  Eye: Right<br />
 &emsp;  Filter: 0<br />
-&emsp;  Type:C(Losslessly Compressed 8 Bit Image)<br />
+&emsp;  Type:E(JPEG 422 Image)<br />
 
 *PHASE 2:* <br />
 &emsp;  TBC
@@ -34,7 +37,6 @@ prepareing:<br />
    
 ## Summary:
 
-This internship project has been a great venture for me to sharpen my rusty data analytics skills and apply my newly gained geoscience knowledge. I really enjoy diving into planetary science and writing code to achieve my goal.
 
 
 ## Content:
@@ -44,11 +46,7 @@ Project
 └── Resources
     └── pherules.jpg 
 
-local 
-├── Output
-│   ├── Yes
-│   └── No
-└── Input
+
 ``` 
 
 ## Installation
