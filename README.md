@@ -12,11 +12,11 @@
 **BlueberryOnMars** project led by Dr. Jones aims to target spherules on Mars. During the Curiosity Rover's more than 4,000 mission days on Mars, it has continuously supported us in studying the paleoenvironment on Mars. We will focus on Hematite spherules(blueberries), as they are iron oxides and normally precipitate from aqueous fluids, like water. It could be indirect evidence to indicate that the locations where we found hematite spherules might have been habitable in the past. Curiosity Rover has many types of cameras that serve different research purposes. Higher resolution photos taken from Mastcam-100 (Right Eye) were chosen to identify hematite spherules in the photos. 
 
 ## Time Log
-<ins>29/07/25</ins>&emsp;  I found that the website only allows me add 500 photos at a time to the cart for the downloading. If the number of photos taken in a day excess 500, I will not be able to download all of them. Therefore I applied more filter options(Set Filter to only *0* for colour photos; Set photo types to only *Losslessly Compressed 8 Bit Image*) to ensure that the number of daily photo is fewer than 500. <br/>
+<ins>29/07/25</ins>&emsp;I found that the website only allows me add 500 photos at a time to the cart for the downloading. If the number of photos taken in a day excess 500, I will not be able to download all of them. Therefore I applied more filter options(Set Filter to only *0* for colour photos; Set photo types to only *Losslessly Compressed 8 Bit Image*) to ensure that the number of daily photo is fewer than 500. <br/>
 <br/>
-<ins>01/08/25</ins>&emsp; Had download all the photos. <br/>
+<ins>01/08/25</ins>&emsp;Had download all the photos. <br/>
 <br/>
-<ins>06/08/25</ins>&emsp;  Tried few ways (cv2, pillow, numpy) to convert .img file format into .png. I was failed. As a result, I changed the photo types to E(JPEG 422 Image) to ensure that I can process images easily later. <br/>
+<ins>06/08/25</ins>&emsp;Tried few ways (cv2, pillow, numpy) to convert .img file format into .png. I was failed. As a result, I changed the photo types to E(JPEG 422 Image) to ensure that I can process images easily later. <br/>
 
 
 ## About  
@@ -52,8 +52,6 @@ Project
 ├── README.md
 └── Resources
     └── pherules.jpg 
-
-
 ``` 
 
 ## Installation
