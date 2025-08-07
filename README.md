@@ -54,6 +54,10 @@ Project
 ├── README.md
 └── Resources
     └── pherules.jpg 
+
+local
+└── output
+    └── *.tif(sol 1~2000, sol 3503~3643)
 ``` 
 
 ## Installation
