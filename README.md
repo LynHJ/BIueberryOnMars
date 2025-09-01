@@ -40,8 +40,8 @@ Prepare<br />
 &emsp;  Type:C (Losslessly Compressed 8 Bit Image)<br/>
 
 Download and Tranform<br/>
-&emsp; Move all the files into one file, as conversion.py needs **.lbl** and **.img** files to transform data into a readable file type **.tif** <br/>
-&emsp;&emsp; Identify file name (3638ml1029830061500534c00_drcx)<br/>
+&emsp; Move all the files into one file and use conversion.py to transform data into a readable file type **.tif** <br/>
+&emsp; Identify file name (3638ml1029830061500534c00_drcx)<br/>
 &emsp;&emsp; 3648 : The Sol (Mars solar day) of the first day Curiosity landed on Mars<br/>
 &emsp;&emsp; mr : Mastcam<br/>
 &emsp;&emsp; 102983 : Sequence ID<br/>
