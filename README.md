@@ -40,18 +40,18 @@ Prepare<br />
 &emsp;  Type:C (Losslessly Compressed 8 Bit Image)<br/>
 
 Download and Tranform<br/>
-&emsp; Move all the files into one file, as conversion.py needs **.lbl** and **.img** files to transform data into readable file type <ins>.tif</ins><br/>
-&emsp; identify file name (3638ml1029830061500534c00_drcx)<br/>
-&emsp; 3648 : The Sol (Mars solar day) of the first day Curiosity landed on Mars<br/>
-&emsp; mr : Mastcam<br/>
-&emsp; 102983 : Sequence ID<br/>
-&emsp; 006 : Sequence Line<br/>
-&emsp; 15 : Camera Product ID counter<br/>
-&emsp; 00534 : Camera Data Product ID<br/>
-&emsp; c : Procuct Type<br/>
-&emsp; 0 : GOP counter<br/>
-&emsp; 0 : Version ('0' = 1)<br/>
-&emsp; drcx = Decompressed, Color corrected or contrast stretched, Radiometrically corrected<br/>
+&emsp; Move all the files into one file, as conversion.py needs **.lbl** and **.img** files to transform data into a readable file type **.tif** <br/>
+&emsp;&emsp; Identify file name (3638ml1029830061500534c00_drcx)<br/>
+&emsp;&emsp; 3648 : The Sol (Mars solar day) of the first day Curiosity landed on Mars<br/>
+&emsp;&emsp; mr : Mastcam<br/>
+&emsp;&emsp; 102983 : Sequence ID<br/>
+&emsp;&emsp; 006 : Sequence Line<br/>
+&emsp;&emsp; 15 : Camera Product ID counter<br/>
+&emsp;&emsp; 00534 : Camera Data Product ID<br/>
+&emsp;&emsp; c : Procuct Type<br/>
+&emsp;&emsp; 0 : GOP counter<br/>
+&emsp;&emsp; 0 : Version ('0' = 1)<br/>
+&emsp;&emsp; drcx = Decompressed, Color corrected or contrast stretched, Radiometrically corrected<br/>
 
 Record:<br />
 &emsp; Write a log.py to note down photo details (contains or not, sol day, photo codes..,etc) and export as a CSV file<br />
