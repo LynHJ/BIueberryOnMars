@@ -31,31 +31,31 @@ Ideally, this project will have two phases. The first phase is to categorise pho
 
 *PHASE 1:*<br />
 Prepare<br />
-&emsp;  From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx)<br />
-&emsp;  Set data range<br />
-&emsp;  Result view : Observation groups<br />
-&emsp;  Instrument: Mastcam<br />
-&emsp;  Eye: Right<br />
-&emsp;  Filter: 0<br />
-&emsp;  Type:C (Losslessly Compressed 8 Bit Image)<br />
+&emsp;  From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx)<br/>
+&emsp;  Set data range<br/>
+&emsp;  Result view : Observation groups<br/>
+&emsp;  Instrument: Mastcam<br/>
+&emsp;  Eye: Right<br/>
+&emsp;  Filter: 0<br/>
+&emsp;  Type:C (Losslessly Compressed 8 Bit Image)<br/>
 
-Download and Tranform<br />
-&emsp; Move all the files into one file, as conversion.py needs **.lbl** and **.img** files to transform data into readable file type <ins>.tif</ins>
-&emsp; identify file name (3638ml1029830061500534c00_drcx)
-&emsp; 3648 : The Sol (Mars solar day) of the first day Curiosity landed on Mars 
-&emsp; mr : Mastcam
-&emsp; 102983 : Sequence ID
-&emsp; 006 : Sequence Line
-&emsp; 15 : Camera Product ID counter
-&emsp; 00534 : Camera Data Product ID
-&emsp; c : Procuct Type
-&emsp; 0 : GOP counter
-&emsp; 0 : Version ('0' = 1)
-&emsp; drcx = Decompressed, Color corrected or contrast stretched, Radiometrically corrected
+Download and Tranform<br/>
+&emsp; Move all the files into one file, as conversion.py needs **.lbl** and **.img** files to transform data into readable file type <ins>.tif</ins><br/>
+&emsp; identify file name (3638ml1029830061500534c00_drcx)<br/>
+&emsp; 3648 : The Sol (Mars solar day) of the first day Curiosity landed on Mars<br/>
+&emsp; mr : Mastcam<br/>
+&emsp; 102983 : Sequence ID<br/>
+&emsp; 006 : Sequence Line<br/>
+&emsp; 15 : Camera Product ID counter<br/>
+&emsp; 00534 : Camera Data Product ID<br/>
+&emsp; c : Procuct Type<br/>
+&emsp; 0 : GOP counter<br/>
+&emsp; 0 : Version ('0' = 1)<br/>
+&emsp; drcx = Decompressed, Color corrected or contrast stretched, Radiometrically corrected<br/>
 
 Record:<br />
-&emsp; Write a log.py to note down photo details (contains/not contains, sol day, photo codes..,etc) and export as a CSV file<br />
-&emsp; To change your directory on your external drive. Use **cd /Volumes && ls**
+&emsp; Write a log.py to note down photo details (contains or not, sol day, photo codes..,etc) and export as a CSV file<br />
+&emsp; To change your directory on your external drive. Use **cd /Volumes && ls**<br/>
 
 
 *PHASE 2:* <br />
