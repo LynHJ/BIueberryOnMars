@@ -18,8 +18,9 @@
 <ins>01/08/25</ins>&emsp;Had download all the photos. <br/>
 <br/>
 <ins>06/08/25</ins>&emsp;Tried few ways (cv2, pillow, numpy) to convert .img file format into .png. I was failed. As a result, I changed the photo types to E(JPEG 422 Image) to see if I can process images easily later. <br/>
+<br/>
 <ins>07/08/25</ins>&emsp;The newly downloaded files were also output as **.img** files, which was not what I expected. Therefore, I used ChatGPT as a guide to show me how to convert **.img** file into more readable file types. I create a script,**conversion.py**, which easiy convert **.img** into **.tif** format. <br/>
-
+<br/>
 <ins>01/09/25</ins>&emsp;Creat log.py to write file name into a CSV file. <br/>
 
 
@@ -39,7 +40,7 @@ Prepare<br />
 &emsp;  Type:C (Losslessly Compressed 8 Bit Image)<br />
 
 Download and Tranform<br />
-&emsp; Move all the files into one file, as conversion.py needs ** .lbl ** and ** .img ** files to transform data into readable file type <ins>.tif</ins>
+&emsp; Move all the files into one file, as conversion.py needs **.lbl** and **.img** files to transform data into readable file type <ins>.tif</ins>
 &emsp; identify file name (3638ml1029830061500534c00_drcx)
 &emsp; 3648 : The Sol (Mars solar day) of the first day Curiosity landed on Mars 
 &emsp; mr : Mastcam
@@ -54,7 +55,7 @@ Download and Tranform<br />
 
 Record:<br />
 &emsp; Write a log.py to note down photo details (contains/not contains, sol day, photo codes..,etc) and export as a CSV file<br />
-&emsp; To change your directory on your external drive. Use ** cd /Volumes && ls **
+&emsp; To change your directory on your external drive. Use **cd /Volumes && ls**
 
 
 *PHASE 2:* <br />
