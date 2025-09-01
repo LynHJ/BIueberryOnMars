@@ -21,9 +21,9 @@
 <br/>
 <ins>07/08/25</ins>&emsp;The newly downloaded files were also output as **.img** files, which was not what I expected. Therefore, I used ChatGPT as a guide to show me how to convert **.img** file into more readable file types. I create a script,**conversion.py**, which easiy convert **.img** into **.tif** format. <br/>
 <br/>
-<ins>12/08/25</ins>&emsp;Processed around 2500 images. <br/>
+<ins>12/08/25</ins>&emsp;Have Processed around 2500 images. <br/>
 <br/>
-<ins>01/09/25</ins>&emsp;Creat log.py to write file name into a CSV file. <br/>
+<ins>01/09/25</ins>&emsp;Created a log.py to write file name into a CSV file and haven processed 4500 images. <br/>
 
 
 ## About  
