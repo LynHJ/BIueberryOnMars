@@ -4,7 +4,7 @@ import glob
 
 
 lbl_file = glob.glob( "*.lbl")                                      # Find all .lbl files in the folder
-output_path = '../output'
+output_path = 'your output file path'                               # Based on the location of conversion.py
 os.makedirs(output_path, exist_ok=True)
 for lbl in lbl_file:          
     file_name = os.path.splitext(lbl)[0]                            # To keep the output files' name

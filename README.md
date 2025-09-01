@@ -1,8 +1,9 @@
 # BlueberryOnMars
 
-
+![](https://img.shields.io/badge/GDAL==3.11.3-informational?style=plastic&logo=appveyor)
 ![](https://img.shields.io/badge/numpy-1.21.5-informational?style=plastic&logo=appveyor)
 ![](https://img.shields.io/badge/pandas-1.3.5-informational?style=plastic&logo=appveyor)
+
 
 
 <img src="https://github.com/LynHJ/BIueberryOnMars/blob/fbb3afe79110170c4a06553668c161140c451044/Resources/spherules.jpg"  width="1200" height="400" />
@@ -17,7 +18,9 @@
 <ins>01/08/25</ins>&emsp;Had download all the photos. <br/>
 <br/>
 <ins>06/08/25</ins>&emsp;Tried few ways (cv2, pillow, numpy) to convert .img file format into .png. I was failed. As a result, I changed the photo types to E(JPEG 422 Image) to see if I can process images easily later. <br/>
-<ins>07/08/25</ins>&emsp;The newly downloaded files were also output as **.img** files, which was not what I expected. Therefore, I used ChatGPT as a guide to show me how to convert **.img** file into more readable file types. I create a script,**conversion.py**, which easiy convert **.img** into **.tif** format.
+<ins>07/08/25</ins>&emsp;The newly downloaded files were also output as **.img** files, which was not what I expected. Therefore, I used ChatGPT as a guide to show me how to convert **.img** file into more readable file types. I create a script,**conversion.py**, which easiy convert **.img** into **.tif** format. <br/>
+
+<ins>01/09/25</ins>&emsp;Creat log.py to write file name into a CSV file. <br/>
 
 
 ## About  
@@ -26,17 +29,32 @@ Ideally, this project will have two phases. The first phase is to categorise pho
 
 
 *PHASE 1:*<br />
-Prepareing:<br />
+Prepare<br />
 &emsp;  From [Curiosity (MSL) Analyst's Notebook](https://an.rsl.wustl.edu/msl/AN/an3.aspx)<br />
 &emsp;  Set data range<br />
 &emsp;  Result view : Observation groups<br />
 &emsp;  Instrument: Mastcam<br />
 &emsp;  Eye: Right<br />
 &emsp;  Filter: 0<br />
-&emsp;  Type:C (osslessly Compressed 8 Bit Image)<br />
+&emsp;  Type:C (Losslessly Compressed 8 Bit Image)<br />
 
-Recording:<br />
-&emsp;  Write a log.py to note down photo details (contains/not contains, sol day, photo codes..,etc) and export as a CSV file<br />
+Download and Tranform<br />
+&emsp; Move all the files into one file, as conversion.py needs ** .lbl ** and ** .img ** files to transform data into readable file type <ins>.tif</ins>
+&emsp; identify file name (3638ml1029830061500534c00_drcx)
+&emsp; 3648 : The Sol (Mars solar day) of the first day Curiosity landed on Mars 
+&emsp; mr : Mastcam
+&emsp; 102983 : Sequence ID
+&emsp; 006 : Sequence Line
+&emsp; 15 : Camera Product ID counter
+&emsp; 00534 : Camera Data Product ID
+&emsp; c : Procuct Type
+&emsp; 0 : GOP counter
+&emsp; 0 : Version ('0' = 1)
+&emsp; drcx = Decompressed, Color corrected or contrast stretched, Radiometrically corrected
+
+Record:<br />
+&emsp; Write a log.py to note down photo details (contains/not contains, sol day, photo codes..,etc) and export as a CSV file<br />
+&emsp; To change your directory on your external drive. Use ** cd /Volumes && ls **
 
 
 *PHASE 2:* <br />
