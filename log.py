@@ -4,8 +4,8 @@ import os
 
 #filePath = f'../../../../../../../Volumes/Seagate\ Bac/BlueberryOnMars/{NO}'
 
-yes = f'../../../../../../Volumes/SeagateBac/BlueberryOnMars/Yes/'               # Find all .tif files in the Yes folder
-no =  f'../No/'                                                                  # Find all .tif files in the No folder
+yes = f'../../../../../../Volumes/SeagateBac/BlueberryOnMars/Yes'               # Find all .tif files in the Yes folder
+no =  f'../No'                                                                  # Find all .tif files in the No folder
 suspect = f'../Suspect'                                                          # Find all .tif files in the Suspect folder
 
 Paths = [yes, no, suspect]
